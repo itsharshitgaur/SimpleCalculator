@@ -1,0 +1,47 @@
+.calc{
+    padding: 10px;
+    color: black;
+    font-weight: 1000;
+    height: 280px;
+    width: 150px;
+    margin: auto;
+    background-color: rgb(235, 229, 212);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 20px 40px, rgba(0, 0, 0, 0.23) 0px 12px 24px;
+}
+table , tr , td{
+    border: 1px solid antiquewhite;
+    border-collapse: collapse;
+    border-radius: 0.6em;
+    text-align: center;
+    font-family: cursive;
+    font-size: 14px;
+}
+#fn , #sn , #res{
+    height: 20px;
+    width: 110px;
+}
+textarea{
+    resize: none;
+    font-family: cursive;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgb(241, 233, 214);
+}
+#b1 , #b2 , #b3 , #b4{
+    height: 30px;
+    width: 116px;
+    background-color: gray;
+    color:black;
+    font-weight: 1000;
+    cursor: grab;
+    font-family:  cursive;
+}
+#b5{
+    height: 30px;
+    width: 238px;
+    background-color: gray;
+    color:black;
+    font-weight: 1000;
+    cursor: grab;
+    font-family: cursive;
+}

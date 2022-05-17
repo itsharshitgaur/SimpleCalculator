@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <table class="calc">
+        <tr>
+            <td>First Number</td>
+            <td><textarea id="fn"></textarea></td>
+        </tr><br>
+        <tr>
+            <td>Second Number</td>
+            <td><textarea id="sn"></textarea></td>
+        </tr><br>
+        <tr>
+            <td>Result</td>
+            <td><textarea id="res" readonly>0</textarea></td>
+        </tr><br>
+        <tr>
+            <td><button id="b1" onclick="add()">Add</button></td>
+            <td><button id="b2" onclick="sub()">Subtract</button></td>
+        </tr>
+        <tr>
+            <td><button id="b3" onclick="mul()">Multiply</button></td>
+            <td><button id="b4" onclick="div()">Divide</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button id="b5" onclick="reset()">Reset</button></td>
+        </tr>
+    </table>
+    <script src="app.js"></script>
+</body>
+</html>
